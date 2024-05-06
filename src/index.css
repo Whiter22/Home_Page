@@ -1,0 +1,71 @@
+#root{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  margin: 0
+}
+
+/* #user_name{
+  background-color: blueviolet;
+} */
+
+#loggin_button{
+  height: 30px;
+  width: 70px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+}
+
+.option_button{
+  height: 50px;
+  width: 100px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+
+.holder_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide_arrows{
+  position: absolute;
+  cursor: pointer;
+}
+
+.sliderContainer{
+  display: none;
+}
+
+@media only screen and (min-width: 1080px) {
+  #user_name{
+    position: absolute;
+    margin-right: 1300px;
+    margin-bottom: 600px;
+  }
+
+  #search_bar_div{
+    width: 200px;
+    margin-bottom: 650px;
+  }
+
+  .sliderContainer{
+    display: block;
+  }
+}
